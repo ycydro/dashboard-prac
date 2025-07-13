@@ -13,7 +13,7 @@ import Header from "./components/Header/Header";
 const App = () => {
   return (
     <Router>
-      <main className="grid grid-cols-[200px_1fr] grid-rows-[auto_1fr] min-h-screen gap-3 p-4">
+      <main className="grid grid-cols-[250px_1fr] grid-rows-[auto_1fr] min-h-screen gap-3 p-4">
         {/* Sidebar: spans 2 rows (header + content) in the 1st column */}
         <div className="row-span-2">
           <Sidebar />

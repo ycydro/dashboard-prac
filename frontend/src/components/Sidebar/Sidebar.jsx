@@ -1,11 +1,11 @@
 import React from "react";
 import Company from "./Company";
 import NavItems from "./NavItems";
-import shai from "../../../public/IMG_6061.png";
+import okc from "../../../public/okc.png";
 
 const company = {
-  name: "Shai Sotto",
-  logo: shai,
+  name: "OKC Thunder",
+  logo: okc,
 };
 
 const Sidebar = () => {

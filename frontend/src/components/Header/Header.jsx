@@ -1,9 +1,12 @@
 import React from "react";
+import Search from "../Search";
+import AccountToggle from "./AccountToggle";
 
 const Header = () => {
   return (
-    <div className="sticky top-0 bg-gray-50 rounded-lg w-full p-5">
-      <h2>HEADER</h2>
+    <div className="bg-gray-50 rounded-lg w-full p-5 flex items-center justify-between">
+      <Search />
+      <AccountToggle />
     </div>
   );
 };
